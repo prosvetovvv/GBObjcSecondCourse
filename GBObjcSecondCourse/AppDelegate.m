@@ -21,9 +21,9 @@
     self.window = [[UIWindow alloc] initWithFrame:frame];
     
     ViewController *viewController = [ViewController new];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    UINavigationController *navigationViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
     
-    [self.window setRootViewController:navigationController];
+    [self.window setRootViewController:navigationViewController];
     [self.window makeKeyAndVisible];
     
     
