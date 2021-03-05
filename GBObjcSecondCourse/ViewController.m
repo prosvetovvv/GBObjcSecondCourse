@@ -15,7 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"Main";
+    [self.view setBackgroundColor:[UIColor redColor]];
 }
 
 
